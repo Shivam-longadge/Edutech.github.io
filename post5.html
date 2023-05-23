@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="edutech-logo.png" type="image/icon">
+    <title>Edu Tech</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="Edutech-logo.png" alt="">
+        <div class="naviagtion">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+   
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/Cloud.jpg" alt="">
+                <h3>Learn Cloud Computing with AWS</h3>
+                <p>Learn about the different tools and systems involved in cloud computing and dev ops. Explore popular cloud solutions and the benefits to cloud computing along with the core cloud architecture concepts and approaches. 
+                    <br><br>
+                    You’ll also learn about the pipelines, integration techniques and workflows involved in dev ops. You’ll understand the methods and tools involved in delivery and deployment. Plus, you’ll learn about the core concepts that underpin the use of containers such as Docker and Kubernetes and how they are used. Finally, discover how all the different dev ops principles come together to form the practice of site reliability engineering.</p>
+                    <h3>What you'll learn</h3>
+                    
+                        <li>Learn the basics of AWS (Amazon Web Services)</li>
+                        <li>Learn the fundamentals of AWS (EC2, ELB, and ASG)</li>
+                        <li>Learn how to construct AWS infrastructure</li>
+                        <li>Understand the basic cloud computing concepts</li>
+                        <li>Develop practical skills whilst utilizing several AWS services</li>
+                        <li>How to integrate various services together</li>
+                    <h3>Requirements</h3>
+                    <li>No prior experience is necessary in any way</li>
+                    <li>This course is designed for absolute beginners to cloud computing and AWS </li>
+                    <li>No IT prerequisites are required</li><br>
+                    <h4>Join Edutech for this course if you want to master the basics of Cloud computing on AWS and kick-start your career in cloud computing.</h4>
+
+                    <h3>Who this course is for:</h3>
+                    <ul>  
+                    <li>Those who have an interest and desire to learn cloud computing</li>
+                    <li>Beginners learning about cloud computing for the first time</li>
+                    <li>Individuals who want to learn about Amazon Web Services (AWS)</li>
+                    <li>Those that want to add to their pre-existing cloud knowledge</li>
+                    <li>Programmers/developers with a keen interest in learning about the foundations of cloud development</li>
+                    </ul>
+                  
+
+                <a href="#">Read Next..</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brands Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Edu Tech A Great Place to Learn</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="red">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All  rights reserved</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .naviagtion ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .naviagtion ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

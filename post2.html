@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="edutech-logo.png" type="image/icon">
+    <title>Edu Tech</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="Edutech-logo.png" alt="">
+        <div class="naviagtion">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+   
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/ds.jpg" alt="">
+                <h3>Learn Data Science - Become a Data Scientist </h3>
+                <p>Data Science programme is designed for you to build a distinctive career in analytical and leadership roles in various sectors. With a perfect blend of machine learning, big data analytics, and statistics, the programme helps you gain experience in solving problems with real-world data..<br>
+                <h3>The Problem</h3>
+                Data scientist is one of the best suited professions to thrive this century. It is digital, programming-oriented, and analytical. Therefore, it comes as no surprise that the demand for data scientists has been surging in the job marketplace. 
+                <br><br>    
+                However,supply has been very limited. It is difficult to acquire the skills necessary to be hired as a data scientist. <br> <br>
+                 <h3>And how can you do that?</h3>  
+                Universities have been slow at creating specialized data science programs. (not to mention that the ones that exist are very expensive and time consuming) Most online courses focus on a specific topic and it is difficult to understand how the skill they teach fit in the complete picture  
+                  <br><br>
+               <h3>The Solution</h3>
+               Data science is a multidisciplinary field. It encompasses a wide range of topics. 
+               <br> <br>
+                
+                <li>Understanding of the data science field and the type of analysis carried out </li>
+                <li>Mathematics</li>
+                <li>Statistics</li>
+                <li>Python</li>
+                <li>Applying advanced statistical techniques in Python</li>
+                <li>Data Visualization</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <br>
+                Each of these topics builds on the previous ones. And you risk getting lost along the way if you don't acquire these skills in the right order. For example, one would struggle in the application of Machine Learning techniques before understanding the underlying Mathematics. Or, it can be overwhelming to study regression analysis in Python before knowing what a regression is. <br><br>
+
+                We believe this is the first training program that solves the biggest challenge to entering the data science field – having all the necessary resources in one place.  
+
+                Moreover, our focus is to teach topics that flow smoothly and complement each other. The course teaches you everything you need to know to become a data scientist at a fraction of the cost of traditional programs (not to mention the amount of time you will save).
+                <h3>Who this course is for?</h3> 
+                <li>You should take this course if you want to become a Data Scientist or if you want to learn about the field</li>
+                <li>This course is for you if you want a great career</li>
+                <li>The course is also ideal for beginners, as it starts from the fundamentals and      gradually builds up your skills</li>
+               </p><br>
+                <a href="post3.html">Read Next..</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brands Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Edu Tech A Great Place to Learn</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="red">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All  rights reserved</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .naviagtion ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .naviagtion ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="edutech-logo.png" type="image/icon">
+    <title>Edu Tech</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="Edutech-logo.png" alt="">
+        <div class="naviagtion">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+   
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/AI_Machine_learning.jpg" alt="">
+                <h3>Learn Artificial Intelligence & Machine Learning</h3>
+                <p>Artificial Intelligence is rapidly gaining ground in the world, and a lot of modern-day industries are using AI to enhance their products and services. As the need for AI experts increases, so does the availability of courses that individuals can undertake to inform themselves about this subject. Each of the various available AI courses has different content and eligibility. The readers of this article can expect to have a decent level of understanding of all the different types of available courses, their eligibility criteria, their advantages and disadvantages, the scope of AI in India, and various industries, among other things. </p>
+                <h3>About AI and ML</h3>
+                <p>Artificial Intelligence (AI) has a long history but is still properly and actively growing and changing. In this course, you’ll learn the basics of modern AI as well as some of the representative applications of AI such as Data Science, Machine Learning, Deep Learning, Statistics, Artificial Neural Networks, Restricted Boltzmann Machine (RBM) and Tensorflow with Python. Along the way, we also hope to excite you about the numerous applications and huge possibilities in the field of AI, which continues to expand human capability beyond our imagination. This Artificial Intelligence course will provide a broad understanding of the basic techniques for building intelligent computer systems and an understanding of how AI is going to apply.</p>
+                <h3>What you'll learn</h3>
+                <li>Understand the importance, principles, and fields of AI</li>
+                    <li>Apply regression and classification concepts to real-world problems</li>
+                    <li>Perform clustering using the k-means and mean shift algorithms</li>
+                    <li>Learn to implement basic artificial intelligence concepts with Python</li>
+                    <li>Perform predictive analysis using decision trees and random forests</li>
+                    <li>Understand the fundamentals of deep learning via practical examples</li>
+                
+                <h3>Requirements</h3>
+                <li>You do not need any prior experience in AI.</li>
+                    <li>We recommend that you have knowledge of high school level mathematics and at least one programming language, preferably Python.</li>
+                    
+                    <h3>Who this course is for?</h3>
+                    <ul><li>This course is ideal for software developers and data scientists, who want to enrich their projects with machine learning.</li></ul>
+                
+                <a href="post4.html">Read Next..</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brands Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Edu Tech A Great Place to Learn</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="red">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All  rights reserved</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .naviagtion ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .naviagtion ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

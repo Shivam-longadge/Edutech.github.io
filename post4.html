@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="edutech-logo.png" type="image/icon">
+    <title>Edu Tech</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="Edutech-logo.png" alt="">
+        <div class="naviagtion">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+   
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/Blockchain.jpg" alt="">
+                <h3>Learn Blockchain Technology A-Z</h3>
+                <p>Harness the power of the most disruptive technology since the internet through real life examples! Master Blockchain Technology Now</p> 
+                <p>This specialization introduces blockchain, a revolutionary technology that enables peer-to-peer transfer of digital assets without any intermediaries, and is predicted to be just as impactful as the Internet. More specifically, it prepares learners to program on the Ethereum blockchain. The four courses provide learners with.
+                <p> <li>An understanding and working knowledge of foundational blockchain concepts.</li> 
+                    <li>A skill set for designing and implementing smart contracts.</li> 
+                    <li>Methods for developing decentralized applications on the blockchain.</li> 
+                    <li>Information about the ongoing specific industry-wide blockchain frameworks.</li> 
+                </p>
+                    <h3>Applied Learning Project</h3>
+                    <p>Learners will apply the concepts covered in the courses to deploy an instance of a blockchain and carry out peer-to-peer transactions, program and test smart contracts using Solidity language; and analyze, design and code a blockchain-based solution for decentralized applications.</p>
+                    <h3>What you'll learn</h3>
+                    
+                        <li>Why this is important</li>
+                        <li>Create a Blockchain</li>
+                        <li>Understand the theory behind Cryptocurrency Transactions</li>
+                        <li>Understand the theory behind Smart Contracts</li>
+                        <li>Understand the theory behind Blockchain</li>
+                        <li>Create their own currency</li>
+                        <li>Create their own Smart Contracts</li>
+                
+                <h3>Who can take this Course</h3>
+                <p>Students and professionals, anyone Interested in learning new technology can take this Blockchain course. This technology is beneficial for the software developers, professionals in Banking and financial sector.</p>
+                <h3>Pre-Requisites for Course</h3>
+                <ul><li>Developers with Object Oriented Language experience is required.</li>
+                <li>Should have a fundamental knowledge of Linux and Command Line.</li>
+                <li>Having a fundamental knowledge of Linux, NodeJS and JavaScript are beneficial.</li></ul>
+                <a href="post5.html">Read Next..</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brands Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Edu Tech A Great Place to Learn</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="red">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All  rights reserved</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .naviagtion ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .naviagtion ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
